@@ -10,7 +10,6 @@ import BetaWarning from "@/components/beta-warning";
 export default async function Home() {
   return (
     <main className="relative h-[calc(100vh-4rem)]">
-      <BetaWarning />
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] dark:bg-neutral-900"></div>
       <section
         id="hero"
